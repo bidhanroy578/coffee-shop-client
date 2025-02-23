@@ -1,0 +1,14 @@
+/* 
+ font-family: "Raleway", serif;
+  font-family: "Rancho", serif;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Rancho&display=swap');
+
+
+
+@import "tailwindcss";
+@plugin "daisyui";
+@theme {
+    --font-rancho: "Rancho", serif;
+    --font-raleway: "Raleway", serif;
+  }
